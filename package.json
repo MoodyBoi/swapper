@@ -1,0 +1,10 @@
+{
+  "name": "swapper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "moody",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.4.1"
+  }
+}

@@ -1,2 +1,6 @@
 cache/
 out/
+/.dapple
+/build
+/out
+/node_modules
