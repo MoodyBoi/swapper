@@ -2,3 +2,97 @@
 # yarn lockfile v1
 
 
+"@ethersproject/address@^5.0.2":
+  "integrity" "sha512-l4Nj0eWlTUh6ro5IbPTgbpT4wRbdH5l8CQf7icF7sb/SI3Nhd9Y9HzhonTSTi6CefI0necIw7LJqQPopPLZyWw=="
+  "resolved" "https://registry.npmjs.org/@ethersproject/address/-/address-5.5.0.tgz"
+  "version" "5.5.0"
+  dependencies:
+    "@ethersproject/bignumber" "^5.5.0"
+    "@ethersproject/bytes" "^5.5.0"
+    "@ethersproject/keccak256" "^5.5.0"
+    "@ethersproject/logger" "^5.5.0"
+    "@ethersproject/rlp" "^5.5.0"
+
+"@ethersproject/bignumber@^5.5.0":
+  "integrity" "sha512-6Xytlwvy6Rn3U3gKEc1vP7nR92frHkv6wtVr95LFR3jREXiCPzdWxKQ1cx4JGQBXxcguAwjA8murlYN2TSiEbg=="
+  "resolved" "https://registry.npmjs.org/@ethersproject/bignumber/-/bignumber-5.5.0.tgz"
+  "version" "5.5.0"
+  dependencies:
+    "@ethersproject/bytes" "^5.5.0"
+    "@ethersproject/logger" "^5.5.0"
+    "bn.js" "^4.11.9"
+
+"@ethersproject/bytes@^5.5.0":
+  "integrity" "sha512-ABvc7BHWhZU9PNM/tANm/Qx4ostPGadAuQzWTr3doklZOhDlmcBqclrQe/ZXUIj3K8wC28oYeuRa+A37tX9kog=="
+  "resolved" "https://registry.npmjs.org/@ethersproject/bytes/-/bytes-5.5.0.tgz"
+  "version" "5.5.0"
+  dependencies:
+    "@ethersproject/logger" "^5.5.0"
+
+"@ethersproject/keccak256@^5.5.0":
+  "integrity" "sha512-5VoFCTjo2rYbBe1l2f4mccaRFN/4VQEYFwwn04aJV2h7qf4ZvI2wFxUE1XOX+snbwCLRzIeikOqtAoPwMza9kg=="
+  "resolved" "https://registry.npmjs.org/@ethersproject/keccak256/-/keccak256-5.5.0.tgz"
+  "version" "5.5.0"
+  dependencies:
+    "@ethersproject/bytes" "^5.5.0"
+    "js-sha3" "0.8.0"
+
+"@ethersproject/logger@^5.5.0":
+  "integrity" "sha512-rIY/6WPm7T8n3qS2vuHTUBPdXHl+rGxWxW5okDfo9J4Z0+gRRZT0msvUdIJkE4/HS29GUMziwGaaKO2bWONBrg=="
+  "resolved" "https://registry.npmjs.org/@ethersproject/logger/-/logger-5.5.0.tgz"
+  "version" "5.5.0"
+
+"@ethersproject/rlp@^5.5.0":
+  "integrity" "sha512-hLv8XaQ8PTI9g2RHoQGf/WSxBfTB/NudRacbzdxmst5VHAqd1sMibWG7SENzT5Dj3yZ3kJYx+WiRYEcQTAkcYA=="
+  "resolved" "https://registry.npmjs.org/@ethersproject/rlp/-/rlp-5.5.0.tgz"
+  "version" "5.5.0"
+  dependencies:
+    "@ethersproject/bytes" "^5.5.0"
+    "@ethersproject/logger" "^5.5.0"
+
+"@uniswap/sdk-core@^3.0.1":
+  "integrity" "sha512-WbeDkhZ9myVR0VnHOdTrb8nHKKkqTFa5uE9RvUbG3eyDt2NWWDwhhqGHwAWJEHG405l30Fa1u3PogHDFsIOQlA=="
+  "resolved" "https://registry.npmjs.org/@uniswap/sdk-core/-/sdk-core-3.0.1.tgz"
+  "version" "3.0.1"
+  dependencies:
+    "@ethersproject/address" "^5.0.2"
+    "big.js" "^5.2.2"
+    "decimal.js-light" "^2.5.0"
+    "jsbi" "^3.1.4"
+    "tiny-invariant" "^1.1.0"
+    "toformat" "^2.0.0"
+
+"big.js@^5.2.2":
+  "integrity" "sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ=="
+  "resolved" "https://registry.npmjs.org/big.js/-/big.js-5.2.2.tgz"
+  "version" "5.2.2"
+
+"bn.js@^4.11.9":
+  "integrity" "sha512-c98Bf3tPniI+scsdk237ku1Dc3ujXQTSgyiPUDEOe7tRkhrqridvh8klBv0HCEso1OLOYcHuCv/cS6DNxKH+ZA=="
+  "resolved" "https://registry.npmjs.org/bn.js/-/bn.js-4.12.0.tgz"
+  "version" "4.12.0"
+
+"decimal.js-light@^2.5.0":
+  "integrity" "sha512-qIMFpTMZmny+MMIitAB6D7iVPEorVw6YQRWkvarTkT4tBeSLLiHzcwj6q0MmYSFCiVpiqPJTJEYIrpcPzVEIvg=="
+  "resolved" "https://registry.npmjs.org/decimal.js-light/-/decimal.js-light-2.5.1.tgz"
+  "version" "2.5.1"
+
+"js-sha3@0.8.0":
+  "integrity" "sha512-gF1cRrHhIzNfToc802P800N8PpXS+evLLXfsVpowqmAFR9uwbi89WvXg2QspOmXL8QL86J4T1EpFu+yUkwJY3Q=="
+  "resolved" "https://registry.npmjs.org/js-sha3/-/js-sha3-0.8.0.tgz"
+  "version" "0.8.0"
+
+"jsbi@^3.1.4":
+  "integrity" "sha512-aBE4n43IPvjaddScbvWRA2YlTzKEynHzu7MqOyTipdHucf/VxS63ViCjxYRg86M8Rxwbt/GfzHl1kKERkt45fQ=="
+  "resolved" "https://registry.npmjs.org/jsbi/-/jsbi-3.2.5.tgz"
+  "version" "3.2.5"
+
+"tiny-invariant@^1.1.0":
+  "integrity" "sha512-1Uhn/aqw5C6RI4KejVeTg6mIS7IqxnLJ8Mv2tV5rTc0qWobay7pDUz6Wi392Cnc8ak1H0F2cjoRzb2/AW4+Fvg=="
+  "resolved" "https://registry.npmjs.org/tiny-invariant/-/tiny-invariant-1.2.0.tgz"
+  "version" "1.2.0"
+
+"toformat@^2.0.0":
+  "integrity" "sha512-03SWBVop6nU8bpyZCx7SodpYznbZF5R4ljwNLBcTQzKOD9xuihRo/psX58llS1BMFhhAI08H3luot5GoXJz2pQ=="
+  "resolved" "https://registry.npmjs.org/toformat/-/toformat-2.0.0.tgz"
+  "version" "2.0.0"
