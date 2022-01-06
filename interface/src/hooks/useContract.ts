@@ -2,6 +2,8 @@ import { useMemo } from 'react'
 import { Contract } from '@ethersproject/contracts'
 import useActiveWeb3React from './useActiveWeb3React'
 import { getContract } from 'utils'
+import { MULTICALL_ADDRESS } from 'constants/contracts'
+import MulticallABI from 'abis/multicall2.json'
 
 // returns null on errors
 export default function useContract<T extends Contract = Contract>(
@@ -24,4 +26,8 @@ export default function useContract<T extends Contract = Contract>(
         return null
       }
     }, [addressOrAddressMap, ABI, library, chainId, withSignerIfPossible, account]) as T
+  }
+
+  export function useInterfaceMulticall() {
+    return useContract(MULTICALL_ADDRESS, MulticallABI, false) 
   }
